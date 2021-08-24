@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    width: 30%;
+    animation: App-logo-spin infinite 20s linear;
+    margin-bottom: 15px;
+  }
+}
+
+.App-header {
+  background-color: #6e75857c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: calc(12px + 2vmin);
+  color: #364157;
+}
+input {
+  border-radius: 10px;
+  margin: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+}
+#op {
+  width: 90px;
+  border-radius: 10px;
+  background-color: #364157 ;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  text-align:center;
+  color: aliceblue;
+}
+
+button {
+  border-radius: 10px;
+  background-color:#364157 ;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+a {
+  font-size: 12px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
