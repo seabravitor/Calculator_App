@@ -83,13 +83,4 @@ class App extends React.Component {
 
 export default App;
 
-// 1.1 espaços - input1 e input2 OK
-// 2.1 criar a funcao master OK
-// 3.1 adaptar para cada operador (IF) OK
-// 2.1 como identificar cada valor do input digitado (useState) OK
-// colocar input1 e 2 que vai ser sempre numero OK
-// 2.2 Dar o resultado na pagina OK
-// 2.3 CSS
-// 3.1 Jest Test
-// 3.3 install Axios
-// 3.4 Subir Github
+
